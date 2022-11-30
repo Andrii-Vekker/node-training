@@ -1,3 +1,3 @@
 const foo = require("./index")
 
-foo("helo world")
+foo("Boby")
