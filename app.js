@@ -3,11 +3,13 @@ const fs = require("fs").promises;
 const moment = require("moment")  /// for date formating
 const cors = require("cors");
 
+
+
+const app = express()  /// create server
+
 const corsMiddleware = cors();
 // app.use(corsMiddleware)
 app.use(cors())
-
-const app = express()  /// create server
 
 const contacts = require("./db/contacts.json");
 
